@@ -23,7 +23,7 @@ def printer(array)
   badge_array.each do |output|
     print output.chomp
   end
-  room_list.each do |output.chomp|
+  room_list.each do |output|
     print output
   end
 end
