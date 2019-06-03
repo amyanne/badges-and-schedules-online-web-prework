@@ -21,9 +21,9 @@ def printer(array)
   badge_array = batch_badge_creator(array)
   room_list = assign_rooms(array)
   badge_array.each do |output|
-    print.chomp! output
+    print output.chomp
   end
   room_list.each do |output|
-    print.chomp! output 
+    print output.chomp
   end
 end
